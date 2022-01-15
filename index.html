@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./scripts.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <h1>Block Hit</h1>
+    </div>
+    <div class="mainbody">
+        <div class="leftpane">
+            <h1>Difficulty</h1>
+            <button data-difficulty="easy" class="active">Easy</button>
+            <button data-difficulty="medium">Medium</button>
+            <button data-difficulty="hard">Hard</button>
+
+            <button id="play">PLAY</button>
+            <button id="stop" class="hidden">STOP</button>
+        </div>
+
+
+        <div class="midpane">
+            <div id="playArea"></div>
+        </div>
+
+
+        <div class="rightpane">
+            <h1>Timer</h1>
+            <p id="timer">0</p>
+            <h1>Score</h1>
+            <p id="score">0</p>
+        </div>
+    </div>
+</body>
+</html>
